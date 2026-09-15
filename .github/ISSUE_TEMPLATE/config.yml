@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+issue_templates:
+  - name: "Bug Report"
+    description: "Report a bug in the system."
+    title: "[Bug]: "
+    labels: ["bug"]
+    body: "./ISSUE_TEMPLATE/bug_report.md"
+  - name: "User Story"
+    description: "Describe a user story."
+    title: "[User Story]: "
+    labels: ["story"]
+    body: "./ISSUE_TEMPLATE/user_story.md"
